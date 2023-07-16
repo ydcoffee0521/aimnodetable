@@ -7,12 +7,16 @@
     
     .dataframe {text-align: center !important}
 
-    button {
-        width: 70px !important;
-        padding-top: 0px !important;
+    .stButton>button{
+        color: #11A27B;
+        height: 14px;
+        width: 70px;
+        font-size:10px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
         padding-bottom: 0px !important;
+        padding-top: 0px !important;
     }
-
     .node-container {
       display: grid;
       grid-template-columns: repeat(10, 80px);

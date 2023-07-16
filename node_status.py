@@ -250,8 +250,8 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            #table_c.dataframe(df)
-            table_c.dataframe(df)
+
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -263,7 +263,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[1].button('node02'): 
         nn = 2
         node_info = node_data.get(str(nn), {})
@@ -287,7 +287,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -299,7 +299,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[2].button('node03'): 
         nn = 3
         node_info = node_data.get(str(nn), {})
@@ -323,7 +323,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -335,7 +335,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[3].button('node04'): 
         nn = 4
         node_info = node_data.get(str(nn), {})
@@ -359,7 +359,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -371,7 +371,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[4].button('node05'): 
         nn = 5
         node_info = node_data.get(str(nn), {})
@@ -395,7 +395,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -407,7 +407,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[5].button('node06'): 
         nn = 6
         node_info = node_data.get(str(nn), {})
@@ -431,7 +431,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -443,7 +443,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[6].button('node07'): 
         nn = 7
         node_info = node_data.get(str(nn), {})
@@ -467,7 +467,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -479,7 +479,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[7].button('node08'): 
         nn = 8
         node_info = node_data.get(str(nn), {})
@@ -503,7 +503,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -515,7 +515,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[8].button('node09'): 
         nn = 9
         node_info = node_data.get(str(nn), {})
@@ -539,7 +539,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -551,7 +551,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
     if columns_c01but[9].button('node10'): 
         nn = 10
         node_info = node_data.get(str(nn), {})
@@ -575,7 +575,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -587,7 +587,7 @@ def update_node_status_aimc01(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c.dataframe(df)
+            table_c.dataframe(df,use_container_width=True )
 
 def update_node_status_aimc02(node_data):
     st.markdown("<h1 style='text-align: center; color: grey;'>aimc02</h1>", unsafe_allow_html=True)
@@ -652,7 +652,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -664,7 +664,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[1].button(key="nana02", label='node02'): 
         nn = 2
         node_info = node_data.get(str(nn), {})
@@ -688,7 +688,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -700,7 +700,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[2].button(key="nana03", label='node03'): 
         nn = 3
         node_info = node_data.get(str(nn), {})
@@ -724,7 +724,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -736,7 +736,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[3].button(key="nana04", label='node04'): 
         nn = 4
         node_info = node_data.get(str(nn), {})
@@ -760,7 +760,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -772,7 +772,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[4].button(key="nana05", label='node05'): 
         nn = 5
         node_info = node_data.get(str(nn), {})
@@ -796,7 +796,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -808,7 +808,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[5].button(key="nana06", label='node06'): 
         nn = 6
         node_info = node_data.get(str(nn), {})
@@ -832,7 +832,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -844,7 +844,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[6].button(key="nana07", label='node07'): 
         nn = 7
         node_info = node_data.get(str(nn), {})
@@ -868,7 +868,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -880,7 +880,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[7].button(key="nana08", label='node08'): 
         nn = 8
         node_info = node_data.get(str(nn), {})
@@ -904,7 +904,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -916,7 +916,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[8].button(key="nana09", label='node09'): 
         nn = 9
         node_info = node_data.get(str(nn), {})
@@ -940,7 +940,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -952,7 +952,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
     if columns_c02but[9].button(key="nana10", label='node10'): 
         nn = 10
         node_info = node_data.get(str(nn), {})
@@ -976,7 +976,7 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
         else:
             namel = ["empty"]
             corel = ["empty"]
@@ -988,10 +988,14 @@ def update_node_status_aimc02(node_data):
                             "percent":percl,
                             "input time":timel,
                             "elapsed time":elapl})
-            table_c2.dataframe(df)
+            table_c2.dataframe(df,use_container_width=True )
 # 메인 애플리케이션 실행
 def main():
     st.set_page_config(layout="centered")  # 페이지를 wide로 설정
+    st.markdown(""" div.stButton > button:first-child {
+    background-color: #00cc00;color:white;font-size:20px;height:3em;width:50%;border-radius:10px 10px 10px 10px;
+    }
+    """, unsafe_allow_html=True)
     local_css("style.css")
     backgroundColor="#50bcdf"
     st.title('Node Status Update')
@@ -1025,7 +1029,7 @@ def main():
     hpc11_node_data = initialize_node_data("hpc11_node_data.json")
     aimc01_node_data = initialize_node_data("aimc01_node_data_adv.json")
     aimc02_node_data = initialize_node_data("aimc02_node_data_adv.json")
-    but_col = st.columns([1,1,4])
+    but_col = st.columns([1,1,8])
 
     for node in hpc8_disabled:
         node_info = hpc8_node_data.get(str(node), {})
