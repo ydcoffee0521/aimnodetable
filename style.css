@@ -1,0 +1,66 @@
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .node-container {
+      display: grid;
+      grid-template-columns: repeat(10, 80px);
+      grid-template-rows: repeat(4, 120px);
+      gap: 5px;
+      justify-content: center;
+    }
+
+    .node {
+      width : 70px;
+      height: 100px;
+      border: 1px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .occupied {
+      background-color: #ff0000;
+      color: #fff;
+    }
+
+    .available {
+      background-color: #00ff00;
+    }
+
+    #node-form {
+      margin-top: 10px;
+    }
+
+    #output-area {
+      margin-top: 20px;
+      border: 1px solid #000;
+      padding: 10px;
+    }
+
+    #title-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    #title-container h1 {
+      margin-right: 10px;
+    }
+
+    /* Additional Styles */
+    .person-info {
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .time-info {
+      font-size: 12px;
+    }
+  </style>
