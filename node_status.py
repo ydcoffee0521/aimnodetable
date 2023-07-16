@@ -992,10 +992,7 @@ def update_node_status_aimc02(node_data):
 # 메인 애플리케이션 실행
 def main():
     st.set_page_config(layout="centered")  # 페이지를 wide로 설정
-    st.markdown(""" div.stButton > button:first-child {
-    background-color: #00cc00;color:white;font-size:20px;height:3em;width:50%;border-radius:10px 10px 10px 10px;
-    }
-    """, unsafe_allow_html=True)
+
     local_css("style.css")
     backgroundColor="#50bcdf"
     st.title('Node Status Update')
