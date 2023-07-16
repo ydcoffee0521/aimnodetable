@@ -267,7 +267,7 @@ def main():
     # 폼 입력 처리
     server_selection = st.selectbox('Server name:', ['aimc01', 'aimc02', 'hpc8', 'hpc9', 'hpc10','hpc11'])
     server_node_input = st.text_input('Target node:')
-    occupying_person = st.selectbox('User:',['slee', 'helen','yujoo', 'yun', 'jb', 'yisehak', 'dam', 'dhlee','free'])
+    occupying_person = st.selectbox('User:',['helen','yujoo', 'yun', 'jb', 'yisehak', 'dam', 'dhlee','slee', 'free'])
     
     aimc01_disabled = []
     aimc02_disabled = []
