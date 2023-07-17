@@ -1250,7 +1250,7 @@ def main():
 
                         elif (server_selection=="aimc02"):
                             # Update the node_data dictionary
-                            for node in server_nodes:
+                            for n, node in enumerate(server_nodes):
                                 node_info = aimc02_node_data.get(str(node), {})
                                 cnt = server_cores[n]
                                 for t in range(len(node_info["users"])):
