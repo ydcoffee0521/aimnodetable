@@ -77,7 +77,7 @@ def update_node_status_hpc(node_data, hpcnum):
                 )
             else:
                 column.markdown(
-                    f'<div class="node" style="background-color: gray; color: #000000;">{node_index}<br>Disable</div>',
+                    f'<div class="node" style="background-color: gray; color: #000000;">{node_index}<br>Disabled</div>',
                     unsafe_allow_html=True
                 )
 
@@ -147,7 +147,7 @@ def update_node_status_hpc11(node_data):
                 )
             else:
                 column.markdown(
-                    f'<div class="node" style="background-color: gray; color: #000000;">{node_index}<br>Disable</div>',
+                    f'<div class="node" style="background-color: gray; color: #000000;">{node_index}<br>Disabled</div>',
                     unsafe_allow_html=True
                 )
 
@@ -644,7 +644,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -680,7 +680,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -716,7 +716,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -752,7 +752,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -788,7 +788,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -824,7 +824,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -860,7 +860,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -896,7 +896,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -932,7 +932,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -968,7 +968,7 @@ def update_node_status_aimc02(node_data):
                 namel.append(node_info["users"][g]["name"])
                 corel.append(node_info["users"][g]["occupiedNode"])
                 tempc = int(node_info["users"][g]["occupiedNode"])
-                percl.append(f"{100*tempc/64:.2f}")
+                percl.append(f"{100*tempc/48:.2f}")
                 timel.append(node_info["users"][g]["occupiedTime"])
                 elapl.append(f"{int(temps//3600):d}:{int((temps%3600)//60):02d}")
             df = pd.DataFrame({"ID":namel,
@@ -999,24 +999,17 @@ def main():
     # 폼 입력 처리
     server_selection = st.selectbox('Server name', ['aimc01', 'aimc02', 'hpc8', 'hpc9', 'hpc10','hpc11'])
     server_node_input = st.text_input('Target node')
-    target_status = st.selectbox('Target Status', ["alloc","free"])  
+    target_status = st.selectbox('Target Status', ["alloc","free","enable","disable"])  
     if ((server_selection=="aimc01" or server_selection=="aimc02") and target_status=="alloc"):
         server_core_input = st.text_input('Target core')      
     occupying_person = st.selectbox('User',['helen','yujoo', 'yun', 'jb', 'yisehak', 'dam', 'dhlee','slee'])
     
-    aimc01_disabled = []
-    aimc02_disabled = []
-    hpc8_disabled = []
-    hpc9_disabled = []
-    hpc10_disabled = [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,20,22,23,25,26,28,29,31,32,33,34,35,36,37,39,40,45,46,49,51,52,53,54,58,60,61,63,64,69,70,71,74,77,78,81,82,83,86,88,91,92,94]
-    for i in range(1,48):
-        hpc9_disabled.append(i)
-        if (i==21 or i==38 or i==44):
-            continue
-        else:
-            hpc8_disabled.append(i)
-        
-    hpc11_disabled = [33, 34, 35, 40, 41]
+    # aimc01_disabled = []
+    # aimc02_disabled = []
+    # hpc8_disabled = [1,4,6,7,8,9,10,12,17,18,19,20,21,22,23,24,29,30,31,33,34,35,36,39,40,43,45,46,47]
+    # hpc9_disabled = [1,3,7,9,10,11,12,14,15,16,17,19,20,21,22,23,24,26,27,30,31,33,34,36,38,39,40,41,42,43,44,45,46,47]
+    # hpc10_disabled = [1,2,3,4,5,6,7,8,9,10,11,12,14,15,16,17,18,20,22,23,25,26,28,29,31,32,33,34,35,36,37,39,40,45,46,49,51,52,53,54,58,60,61,63,64,69,70,71,74,77,78,81,82,83,86,88,91,92,94]
+    # hpc11_disabled = [33, 34, 35, 40, 41]
 
 
     # JSON 데이터 초기화
@@ -1028,39 +1021,39 @@ def main():
     aimc02_node_data = initialize_node_data("aimc02_node_data_adv.json")
     but_col = st.columns([1,1,8])
 
-    for node in hpc8_disabled:
-        node_info = hpc8_node_data.get(str(node), {})
-        node_info["status"] = 'Disabled'
-        node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
-        node_info.pop('occupiedTime',None)
+    # for node in hpc8_disabled:
+    #     node_info = hpc8_node_data.get(str(node), {})
+    #     node_info["status"] = 'Disabled'
+    #     node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+    #     node_info.pop('occupiedTime',None)
 
-    for node in hpc9_disabled:
-        node_info = hpc9_node_data.get(str(node), {})
-        node_info["status"] = 'Disabled'
-        node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
-        node_info.pop('occupiedTime',None)
+    # for node in hpc9_disabled:
+    #     node_info = hpc9_node_data.get(str(node), {})
+    #     node_info["status"] = 'Disabled'
+    #     node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+    #     node_info.pop('occupiedTime',None)
 
-    for node in hpc10_disabled:
-        node_info = hpc10_node_data.get(str(node), {})
-        node_info["status"] = 'Disabled'
-        node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
-        node_info.pop('occupiedTime',None)
+    # for node in hpc10_disabled:
+    #     node_info = hpc10_node_data.get(str(node), {})
+    #     node_info["status"] = 'Disabled'
+    #     node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+    #     node_info.pop('occupiedTime',None)
 
-    for node in hpc11_disabled:
-        node_info = hpc11_node_data.get(str(node), {})
-        node_info["status"] = 'Disabled'
-        node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
-        node_info.pop('occupiedTime',None)
+    # for node in hpc11_disabled:
+    #     node_info = hpc11_node_data.get(str(node), {})
+    #     node_info["status"] = 'Disabled'
+    #     node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+    #     node_info.pop('occupiedTime',None)
 
-    for node in aimc01_disabled:
-        node_info = aimc01_node_data.get(str(node), {})
-        node_info["status"] = 'Disabled'
-        node_info["users"] = {}
+    # for node in aimc01_disabled:
+    #     node_info = aimc01_node_data.get(str(node), {})
+    #     node_info["status"] = 'Disabled'
+    #     node_info["users"] = {}
 
-    for node in aimc02_disabled:
-        node_info = aimc02_node_data.get(str(node), {})
-        node_info["status"] = 'Disabled'
-        node_info["users"] = {}
+    # for node in aimc02_disabled:
+    #     node_info = aimc02_node_data.get(str(node), {})
+    #     node_info["status"] = 'Disabled'
+    #     node_info["users"] = {}
 
 
     if but_col[0].button('update'): 
@@ -1128,16 +1121,16 @@ def main():
                                 cnt = cnt + int(node_info["users"][t]["occupiedNode"])
                             if (cnt > 48):
                                 validation2=True   
-                    if (target_status != "free" and validation1):
+                    if (target_status == "alloc" and validation1):
                         st.error("Invalid node request. Access to occupied/disabled node.")
-                    elif (target_status != "free" and validation2):
+                    elif (target_status == "alloc" and validation2):
                         st.error("Invalid node request. Not enough node left")
                     else:
                         if (server_selection=="hpc8"):
                             # Update the node_data dictionary
                             for node in server_nodes:
                                 node_info = hpc8_node_data.get(str(node), {})
-                                print(node_info)
+                                #print(node_info)
                                 if (target_status == "free" and node_info["status"]!="Disabled"):
                                     # Change the status to "Available" if the occupying person is "free"
                                     node_info["status"] = 'Available'
@@ -1146,6 +1139,16 @@ def main():
                                 elif (target_status == "free" and node_info["status"]=="Disabled"):
                                     # Change the status to "Available" if the occupying person is "free"
                                     continue
+                                elif (target_status == "disable"):
+                                    node_info["status"] = 'Disabled'
+                                    node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+                                    node_info.pop('occupiedTime',None)
+                                elif (target_status == "enable" and node_info["status"]!="Disabled"):
+                                    continue
+                                elif (target_status == "enable" and node_info["status"]=="Disabled"):
+                                    node_info["status"] = 'Available'
+                                    node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+                                    node_info.pop('occupiedTime',None)
                                 else:
                                     node_info["status"] = 'Occupied'
                                     node_info['occupiedBy'] = occupying_person
@@ -1166,6 +1169,16 @@ def main():
                                 elif (target_status == "free" and node_info["status"]=="Disabled"):
                                     # Change the status to "Available" if the occupying person is "free"
                                     continue
+                                elif (target_status == "disable"):
+                                    node_info["status"] = 'Disabled'
+                                    node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+                                    node_info.pop('occupiedTime',None)
+                                elif (target_status == "enable" and node_info["status"]!="Disabled"):
+                                    continue
+                                elif (target_status == "enable" and node_info["status"]=="Disabled"):
+                                    node_info["status"] = 'Available'
+                                    node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+                                    node_info.pop('occupiedTime',None)
                                 else:
                                     node_info["status"] = 'Occupied'
                                     node_info['occupiedBy'] = occupying_person
@@ -1186,6 +1199,16 @@ def main():
                                 elif (target_status == "free" and node_info["status"]=="Disabled"):
                                     # Change the status to "Available" if the occupying person is "free"
                                     continue
+                                elif (target_status == "disable"):
+                                    node_info["status"] = 'Disabled'
+                                    node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+                                    node_info.pop('occupiedTime',None)
+                                elif (target_status == "enable" and node_info["status"]!="Disabled"):
+                                    continue
+                                elif (target_status == "enable" and node_info["status"]=="Disabled"):
+                                    node_info["status"] = 'Available'
+                                    node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+                                    node_info.pop('occupiedTime',None)
                                 else:
                                     node_info["status"] = 'Occupied'
                                     node_info['occupiedBy'] = occupying_person
@@ -1206,6 +1229,16 @@ def main():
                                 elif (target_status == "free" and node_info["status"]=="Disabled"):
                                     # Change the status to "Available" if the occupying person is "free"
                                     continue
+                                elif (target_status == "disable"):
+                                    node_info["status"] = 'Disabled'
+                                    node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+                                    node_info.pop('occupiedTime',None)
+                                elif (target_status == "enable" and node_info["status"]!="Disabled"):
+                                    continue
+                                elif (target_status == "enable" and node_info["status"]=="Disabled"):
+                                    node_info["status"] = 'Available'
+                                    node_info.pop('occupiedBy', None)  # Remove 'occupiedBy' key from the dictionary
+                                    node_info.pop('occupiedTime',None)
                                 else:
                                     node_info["status"] = 'Occupied'
                                     node_info['occupiedBy'] = occupying_person
@@ -1232,6 +1265,14 @@ def main():
                                 elif (target_status == "free" and node_info["status"]=="Disabled"):
                                     # Change the status to "Available" if the occupying person is "free"
                                     continue
+                                elif (target_status == "disable"):
+                                    node_info["status"] = 'Disabled'
+                                    node_info["users"] = []
+                                elif (target_status == "enable" and node_info["status"]!="Disabled"):
+                                    continue
+                                elif (target_status == "enable" and node_info["status"]=="Disabled"):
+                                    node_info["status"] = 'Available'
+                                    node_info["users"] = []
                                 else:
                                     if (cnt==64):
                                         node_info["status"] = 'Occupied'
@@ -1266,6 +1307,14 @@ def main():
                                 elif (target_status == "free" and node_info["status"]=="Disabled"):
                                     # Change the status to "Available" if the occupying person is "free"
                                     continue
+                                elif (target_status == "disable"):
+                                    node_info["status"] = 'Disabled'
+                                    node_info["users"] = []
+                                elif (target_status == "enable" and node_info["status"]!="Disabled"):
+                                    continue
+                                elif (target_status == "enable" and node_info["status"]=="Disabled"):
+                                    node_info["status"] = 'Available'
+                                    node_info["users"] = []
                                 else:
                                     if (cnt==48):
                                         node_info["status"] = 'Occupied'
